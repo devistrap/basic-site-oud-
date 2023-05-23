@@ -1,0 +1,330 @@
+/*
+$davys-grey: rgba(80, 81, 79, 1);
+$ash-gray: rgba(203, 212, 194, 1);
+$snow: rgba(255, 252, 255, 1);
+$cg-blue: rgba(36, 123, 160, 1);
+$khaki-web: rgba(195, 178, 153, 1);
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 50px;
+    
+
+}
+    
+body{
+    background-color: rgba(36, 123, 160, 1);
+    margin: 0%
+};
+
+
+li{
+    border: 1px solid black;
+   
+   
+
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    justify-content: space-between;
+    margin-left: 270px;
+    margin-top: 10px;
+    position: absolute;
+    width: 60%;
+    top: 0;
+
+}
+
+
+
+.taskbar{
+    display: block;
+    width: 100%;
+    height: 125px;
+    background-color:rgba(195, 178, 153, 1);
+    box-shadow: 5px 5px 10px;
+
+}
+
+
+footer{
+    display: inline-block;
+    position:absolute;
+    background-color:rgba(80, 81, 79, 1);
+    bottom: 0;
+    left: 43.5%;
+    width: 200px;
+    text-align: center;
+    font-size: small;
+    border-radius: 15px;
+        
+
+    
+}
+
+.overmij{
+    display: inline-block;
+    position:absolute;
+    position: sticky;
+    background-color:rgba(80, 81, 79, 1);
+    bottom: 0;
+    left: 43.5%;
+    width: 200px;
+    text-align: center;
+    font-size: small;
+    border-radius: 15px;
+        
+}
+
+
+button {
+    font-size: 24px ;
+    height: 50px;
+    width: 200px;
+	box-shadow: 3px 4px 5px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:rgba(195, 178, 153, 1) ;
+	border-radius:9px;
+	cursor:pointer;
+	color:#3e707c;
+    border: 0px;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+
+h2{
+    display: block;
+    margin-top: 75px;
+    margin-left: 35%;
+    padding: 10px;
+    background-color:rgba(195, 178, 153, 1) ;
+    width: 500px;
+    text-align: center;
+    
+}
+
+li{
+
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+    list-style: none;
+    
+    
+}
+
+ul{
+    width: 250px;
+    padding: 10px
+}
+
+h3{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#kop1{
+    background-color:rgb(201, 156, 89);
+    border-radius: 10px;
+}
+
+
+#kop2{
+    background-color:rgb(201, 156, 89);
+    border-radius: 10px;
+}
+
+
+#kop3{
+    background-color:rgb(201, 156, 89);
+    border-radius: 10px;
+}
+
+.lcorner{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid rgba(80, 81, 79, 1);;
+    border-left: 200px solid transparent;
+    bottom: 0;
+    right: 0%;
+}
+
+
+.rcorner{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid rgba(80, 81, 79, 1);;
+    border-right: 200px solid transparent;
+    bottom: 0;
+    left: 0%;
+    
+    
+}
+
+
+#naam{
+    display: inline ;
+    position: absolute;
+    left: 0%;
+    top: 100px;
+    margin-top: 0px;
+    background-color: rgba(36, 123, 160, 1);
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+.fotozelf{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.zelf{
+    margin-top: 70px;
+    width: 300px;
+   
+}
+
+.spirit-animal{
+    margin-top: 70px;
+    width: 300px;
+    
+}
+
+.profiel-child{
+    background-color: rgba(195, 178, 153, 1);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+
+
+ tr, th {
+    border: 1px solid black;
+   
+}
+
+table{
+    position: absolute;
+    box-shadow: 10px 10px 10px;
+    border-collapse: collapse;
+    margin-top: 64px;
+    margin-left: 800px;
+    background-color:rgba(195, 178, 153, 1) ; 
+    border: none;  
+
+}
+
+.alinea1{
+    position: absolute;
+    width: 40%;
+    background-color:rgba(195, 178, 153, 1);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.feedback{
+    display: flex;
+    display: inline-block;
+    border: 3px solid rgba(255, 252, 255, 1);
+    border-radius: 10px;
+    margin-left: 575px;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.vraag{
+    
+    text-align: center;
+}
+
+.answer{
+    margin-left: 30px;
+    padding: 5px;
+    }
+
+.een{
+    background-color: rgba(80, 81, 79, 1);
+    margin-left: 575px;
+    border: 3px solid rgba(255, 252, 255, 1);
+    border-radius: 10px;
+    width: 400px;
+}
+
+
+.positief{
+    background-color: rgba(80, 81, 79, 1);
+    margin-left: 575px;
+    display: inline-block;
+    border: 3px solid rgba(255, 252, 255, 1);
+    border-radius: 10px;
+    width: 400px;
+}   
+
+.negatief{
+    background-color: rgba(80, 81, 79, 1);
+    margin-left: 575px;
+    display: inline-block;
+    border: 3px solid rgba(255, 252, 255, 1);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.droombaan{
+    background-color: rgba(80, 81, 79, 1);
+    margin-left: 575px;
+    display: inline-block;
+    border: 3px solid rgba(255, 252, 255, 1);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.voorbeeld{
+    background-color: rgba(80, 81, 79, 1);
+    margin-left: 575px;
+    display: inline-block;
+    border: 3px solid rgba(255, 252, 255, 1);
+    border-radius: 10px;
+    width: 400px;
+}
